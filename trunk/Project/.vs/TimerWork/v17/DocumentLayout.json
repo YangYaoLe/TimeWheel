@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\TimerWork\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7791F749-F612-F296-5729-B61E8419E55F}|Assembly-CSharp.csproj|D:\\Projects\\TimerWork\\assets\\scripts\\main\\gamemain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7791F749-F612-F296-5729-B61E8419E55F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\main\\gamemain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7791F749-F612-F296-5729-B61E8419E55F}|Assembly-CSharp.csproj|d:\\projects\\timerwork\\assets\\scripts\\tools\\timer\\timermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7791F749-F612-F296-5729-B61E8419E55F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tools\\timer\\timermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7791F749-F612-F296-5729-B61E8419E55F}|Assembly-CSharp.csproj|D:\\Projects\\TimerWork\\assets\\scripts\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7791F749-F612-F296-5729-B61E8419E55F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TimerManager.cs",
+              "DocumentMoniker": "D:\\Projects\\TimerWork\\Assets\\Scripts\\Tools\\Timer\\TimerManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Tools\\Timer\\TimerManager.cs",
+              "ToolTip": "D:\\Projects\\TimerWork\\Assets\\Scripts\\Tools\\Timer\\TimerManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Tools\\Timer\\TimerManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T01:48:04.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameMain.cs",
+              "DocumentMoniker": "D:\\Projects\\TimerWork\\Assets\\Scripts\\Main\\GameMain.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Main\\GameMain.cs",
+              "ToolTip": "D:\\Projects\\TimerWork\\Assets\\Scripts\\Main\\GameMain.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Main\\GameMain.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T03:52:38.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Test.cs",
+              "DocumentMoniker": "D:\\Projects\\TimerWork\\Assets\\Scripts\\Test.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Test.cs",
+              "ToolTip": "D:\\Projects\\TimerWork\\Assets\\Scripts\\Test.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Test.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwCQAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T06:53:21.516Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
