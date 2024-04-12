@@ -68,7 +68,7 @@ public class TimerManager
     // 所有注册了的Timer
     private Dictionary<int, Timer> m_AllTimer = new Dictionary<int, Timer>();
     // Timer对象池
-    private TimerLinkedList m_TimerPool;
+    private ClassObjectPool<Timer> m_TimerPool;
     // 延迟回收池
     private List<Timer> m_DelayRecycleList = new(); // update的时候不能回池，会导致数组错乱
 
@@ -86,7 +86,7 @@ public class TimerManager
         m_TickStart = CurTick();
         m_TickChecked = CurTick();
         m_CurTick = CurTick();
-        m_TimerPool = new TimerLinkedList();
+        m_TimerPool = ObjectPoolManager.GetOrCreatePool<Timer>(16);
     }
 
     public void Update()
@@ -138,7 +138,7 @@ public class TimerManager
         {
             foreach (var item in m_DelayRecycleList)
             {
-                m_TimerPool.AddLast(item);
+                m_TimerPool.Push(item);
             }
             m_DelayRecycleList.Clear();
         }
@@ -257,15 +257,7 @@ public class TimerManager
         {
             return -1;
         }
-        Timer timer = m_TimerPool.GetFirst<Timer>();
-        if (timer != null)
-        {
-            m_TimerPool.Remove(timer);
-        }
-        else
-        {
-            timer = new Timer();
-        }
+        Timer timer = m_TimerPool.Pop();
         long nowTick = CurTick();
         long tickInterval = MsecToTick((long)(interval * 1000));
         timer.Init(++m_IdSeed, nowTick, delay, tickInterval, times, callback, callParam);
@@ -291,7 +283,7 @@ public class TimerManager
             }
             else
             {
-                m_TimerPool.AddLast(timer);
+                m_TimerPool.Push(timer);
             }
             return true;
         }
